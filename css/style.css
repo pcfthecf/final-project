@@ -46,7 +46,19 @@ footer{
 	height: 150px;
 	border: none;
 	float:left;
-	clear:all;
+}
+
+a{
+	color: rgba(255,255,255,1.0);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgba(255,255,255,1.0);
+}
+
+li:hover{
+	color:rgba(4, 148, 215, 1.00);
 }
 
 .button{
@@ -63,6 +75,7 @@ footer{
 	margin-left: 75%;
 	margin-right: 20px;
 	display: inline-block;
+	line-height: 100px;
 }
 
 .button:hover{
@@ -90,6 +103,7 @@ footer{
 	height: 400px;
 	border: 2px solid rgba(0,0,0,1.00);
 	margin: 5px auto;
+	display: none;
 }
 
 .summary article{
@@ -140,6 +154,30 @@ footer{
 	font-size: 24px;
 }
 
+.product{
+	background: red;
+}
+
+.place{
+	background: blue;
+}
+
+.graphic{
+	background: green;
+}
+
+.interactive{
+	background: yellow;
+}
+
+.print{
+	background: purple;
+}
+
+#container{
+	display: none;
+}
+
 #home{
 	width: 180px;
 	border-radius: 50%;
@@ -180,36 +218,26 @@ footer{
 	background-size: cover;
 }
 
+#nav-002{
+	display: none;
+}
+
 #gallery{
 	width: 95%;
-	margin: 25px auto;
+	margin: 2.5% auto;
 }
 
-#project-001{
-	background: red;
-}
 
-#project-002{
-	background: blue;
-}
 
-#project-003{
-	background: green;
-}
-
-#project-004{
-	background: yellow;
-}
-
-#project-005{
-	background: purple;
-}
-
-#project-006{
-	background: orange;
-}
-
-/*#portfolio{
-	background: rgba(0,0,0,1.0);
-	color: rgba(255,255,255,1.0);
-}*/
+/***ISSUES TO ADDRESS***
+	1. STYLING OF ACTIVE LINKS IN NAV & BUTTONS
+	2. CHANGE OF BACKGROUND FOR PORTFOLIO PAGE? 
+		SEE BELOW.
+		#portfolio{
+			background: rgba(0,0,0,1.0);
+			color: rgba(255,255,255,1.0);
+		}
+	3. FIX DISPLAY OF #GALLERY WHEN BROWSER WIDTH SMALLER THAN
+		965px
+	4. Why are thumbnail background colors not changing by class?
+	5. Changes to landing page logo for animation as necessary
