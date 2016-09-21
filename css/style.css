@@ -49,13 +49,12 @@ footer{
 }
 
 a{
-	color: rgba(255,255,255,1.0);
 	text-decoration: none;
 }
 
-a:visited{
+/*a:visited{
 	color: rgba(255,255,255,1.0);
-}
+}*/
 
 li:hover{
 	color:rgba(4, 148, 215, 1.00);
@@ -76,12 +75,17 @@ li:hover{
 	margin-right: 20px;
 	display: inline-block;
 	line-height: 100px;
+	color: rgba(0,0,0,1.00);
 }
 
 .button:hover{
 	border: .5px solid rgba(255, 255, 255, 1.00);
 	background: rgba(0, 0, 0, 1.00);
 	color: rgba(255, 255, 255, 1.00);
+}
+
+.button:visited{
+	color: rgba(0,0,0,1.00);
 }
 
 .copyright{
