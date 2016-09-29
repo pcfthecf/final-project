@@ -1,0 +1,37 @@
+svg{
+	width: 500px;
+	margin: 0 auto;
+}
+
+#drip{
+	animation-name: drop;
+  	animation-duration: 1s;
+  	animation-iteration-count: initial;
+  	display: none;
+}
+
+@keyframes drop {
+  0% {transform: translateY(-10px);}
+  10% {transform: translateY(10px);}
+  20% {transform: translateY(20px);}
+  40% {transform: translateY(40px);}
+  60% {transform: translateY(60px);}
+  80% {transform: translateY(180px);}
+  100% {transform: translateY(350px);}
+}
+
+
+/*#knob{
+	animation-name: faucet;
+	animation-duration: 1s;
+	animation-iteration-count:initial;
+}
+
+@keyframes knob{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(45deg);}
+	50%{transform: rotate(90deg);}
+	75%{transform: rotate(180deg);}
+	100%{transform: rotate(360deg);}
+}*/
+
